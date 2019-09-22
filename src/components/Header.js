@@ -34,7 +34,7 @@ const Header = props => (
               props.onOpenArticle('work')
             }}
           >
-            Work
+            Experience
           </a>
         </li>
         <li>
