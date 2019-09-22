@@ -28,7 +28,7 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">About me</h2>
+          <h2 className="major">About</h2>
           <span className="image main">
             <img src={pic01} alt="" />
           </span>
@@ -38,7 +38,7 @@ class Main extends React.Component {
             for college.
           </p>
           <p>
-            In college, I majored in political economy and mainly spent my time
+            In college, I majored in political science and mainly spent my time
             there studying international political economy and public economics.
             I also started coding when I was a senior and have been studying
             programming since then.
@@ -62,25 +62,13 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Work</h2>
+          <h2 className="major">Experience</h2>
           <span className="image main">
             <img src={pic02} alt="" />
           </span>
-          <p>
-            Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu,
-            at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent
-            urna nisi, fringila lorem et vehicula lacinia quam. Integer
-            sollicitudin mauris nec lorem luctus ultrices.
-          </p>
-          <p>
-            Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus pharetra.
-            Pellentesque condimentum sem. In efficitur ligula tate urna.
-            Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor.
-            Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat
-            tempus.
-          </p>
+          <h4>Software Engineer</h4>
+          <h4>Company name (2018/04 ~ 2019/10)</h4>
+          <p>Worked on both the backend and frontend.</p>
           {close}
         </article>
 

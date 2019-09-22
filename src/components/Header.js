@@ -9,7 +9,9 @@ const Header = props => (
     <div className="content">
       <div className="inner">
         <h1>K-Sato</h1>
-        <p>a software-engineer who is always eager to learn new stuff.</p>
+        <p>
+          Deicated software-engineer specializing in developing web applications
+        </p>
         <p>Ruby/Go/JavaScript/TypeScript/C</p>
       </div>
     </div>
@@ -22,7 +24,7 @@ const Header = props => (
               props.onOpenArticle('intro')
             }}
           >
-            About me
+            About
           </a>
         </li>
         <li>
@@ -32,18 +34,11 @@ const Header = props => (
               props.onOpenArticle('work')
             }}
           >
-            Work
+            Experience
           </a>
         </li>
         <li>
-          <a
-            href="javascript:;"
-            onClick={() => {
-              props.onOpenArticle('about')
-            }}
-          >
-            About
-          </a>
+          <a href="https://k-sato1995.github.io/blog/">BLOG</a>
         </li>
         <li>
           <a
