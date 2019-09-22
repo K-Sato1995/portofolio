@@ -28,7 +28,7 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">About me</h2>
+          <h2 className="major">About</h2>
           <span className="image main">
             <img src={pic01} alt="" />
           </span>
@@ -38,7 +38,7 @@ class Main extends React.Component {
             for college.
           </p>
           <p>
-            In college, I majored in political economy and mainly spent my time
+            In college, I majored in political science and mainly spent my time
             there studying international political economy and public economics.
             I also started coding when I was a senior and have been studying
             programming since then.
