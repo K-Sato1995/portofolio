@@ -66,9 +66,34 @@ class Main extends React.Component {
           <span className="image main">
             <img src={pic02} alt="" />
           </span>
-          <h4>Software Engineer</h4>
-          <h4>Company name (2018/04 ~ 2019/10)</h4>
+          <h2>Work Experience</h2>
+          <h3>DIAMOND MEDIA Co.,Ltd. (2018/10 ~ )</h3>
+          <h4>Job Title: Sowtware engineer</h4>
+          <p>Workd on some stuff</p>
+          <h3>Ruby Development Inc. (2018/04 ~ 2019/09)</h3>
+          <h4>Job Title: Sowtware engineer</h4>
+          <p>Helped the clients build their products.</p>
+          <h3>Neo Career Co., LTD. (2017/02 ~ 2018/01)</h3>
+          <h4>Job Title: Intern</h4>
           <p>Worked on both the backend and frontend.</p>
+
+          <h2>Tech stack</h2>
+          <h3>FrontEnd</h3>
+          <ul>
+            <li>Languages: HTTM5/CSS/JavaScript/TypeScript</li>
+            <li>FrameWorks: React/Redux/Apollo-Client</li>
+          </ul>
+          <h3>BackEnd</h3>
+          <ul>
+            <li>Languages: Ruby/Go/JavaScript</li>
+            <li>FrameWorks: Rails/Express.js</li>
+            <li>Database: MySQL/PostgreSQL/SQLite/Redis</li>
+            <li>API: RESTful, GraphQL</li>
+          </ul>
+          <h3>DevOps・Cloud Service</h3>
+          <ul>
+            <li>Docker/CircleCI/GitHub/GitLab/AWS</li>
+          </ul>
           {close}
         </article>
 
