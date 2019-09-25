@@ -10,9 +10,49 @@ const Header = props => (
       <div className="inner">
         <h1>K-Sato</h1>
         <p>
-          Deicated software-engineer specializing in developing web applications
+          Dedicated software-engineer specializing in Web application
+          development.
+          <br />
+          Ruby/JavaScript/TypeScript/Go/C
         </p>
-        <p>Ruby/Go/JavaScript/TypeScript/C</p>
+        <ul className="icons">
+          <li>
+            <a
+              href="https://github.com/K-Sato1995"
+              target="_blank"
+              className="icon fa-github"
+            >
+              <span className="label">GitHub</span>
+            </a>
+          </li>
+          <li>
+            <strong>
+              <a
+                href="https://dev.to/k_penguin_sato"
+                target="_blank"
+                className="icon"
+              >
+                Dev
+              </a>
+            </strong>
+          </li>
+          <li>
+            <a
+              href="https://qiita.com/k-penguin-sato"
+              target="_blank"
+              className="icon fa-quora"
+            ></a>
+          </li>
+          <li>
+            <strong>
+              <a
+                href="https://www.wantedly.com/users/115232179"
+                target="_blank"
+                className="icon fa-wikipedia-w"
+              ></a>
+            </strong>
+          </li>
+        </ul>
       </div>
     </div>
     <nav>
@@ -34,17 +74,19 @@ const Header = props => (
               props.onOpenArticle('work')
             }}
           >
-            Work
+            Experience
           </a>
         </li>
         <li>
-          <a href="https://k-sato1995.github.io/blog/">BLOG</a>
+          <a href="https://k-sato1995.github.io/blog/" target="_blank">
+            BLOG
+          </a>
         </li>
         <li>
           <a
             href="javascript:;"
             onClick={() => {
-              props.onOpenArticle('contact')
+              window.open('mailto:katsuki_sato0130@icloud.com')
             }}
           >
             Contact
