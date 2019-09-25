@@ -12,7 +12,7 @@ class Main extends React.Component {
         onClick={() => {
           this.props.onCloseArticle()
         }}
-      ></div>
+      />
     )
 
     return (
@@ -67,15 +67,41 @@ class Main extends React.Component {
             <img src={pic02} alt="" />
           </span>
           <h2>Work Experience</h2>
-          <h3>DIAMOND MEDIA Co.,Ltd. (2018/10 ~ )</h3>
-          <h4>Job Title: Sowtware engineer</h4>
-          <p>Workd on some stuff</p>
+          <h3>DIAMOND MEDIA Co.,Ltd. (2019/10 ~ present)</h3>
+          <h4>Job Title: Backend engineer</h4>
+          <ul>
+            <li>
+              Developing several web applications to innovate the real estate
+              industry by technology.
+            </li>
+          </ul>
+
           <h3>Ruby Development Inc. (2018/04 ~ 2019/09)</h3>
           <h4>Job Title: Sowtware engineer</h4>
-          <p>Helped the clients build their products.</p>
+          <ul>
+            <li>
+              Developed web applications for our clients as a member of the
+              development team mainly using RoR on the back-end and React.js on
+              the front-end.
+            </li>
+            <li>
+              Supported training and mentoring new graduates in practical web
+              development by reviewing their code and giving feedbacks.
+            </li>
+          </ul>
           <h3>Neo Career Co., LTD. (2017/02 ~ 2018/01)</h3>
           <h4>Job Title: Intern</h4>
-          <p>Worked on both the backend and frontend.</p>
+          <ul>
+            <li>
+              Developed an application to automate creating cost estimates for
+              the sales team as an intern in the application development
+              department.
+            </li>
+            <li>
+              Helped creating the profit and loss statement for a new project as
+              an intern in the project planning department.
+            </li>
+          </ul>
 
           <h2>Tech stack</h2>
           <h3>FrontEnd</h3>
@@ -93,6 +119,21 @@ class Main extends React.Component {
           <h3>DevOps・Cloud Service</h3>
           <ul>
             <li>Docker/CircleCI/GitHub/GitLab/AWS</li>
+          </ul>
+
+          <h2>Certifications</h2>
+          <ul>
+            <li>Ruby Association Certified Ruby Programmer.</li>
+            <li>
+              Scored 965 out of 990 on TOEIC (Test of English for International
+              Communication).
+            </li>
+          </ul>
+
+          <h2>Education</h2>
+          <ul>
+            <li>Meiji University (Bachelor’s Degree in Politics)</li>
+            <li>TECH::CAMP (Web Development)</li>
           </ul>
           {close}
         </article>
@@ -139,7 +180,7 @@ class Main extends React.Component {
             </div>
             <div className="field">
               <label htmlFor="message">Message</label>
-              <textarea name="message" id="message" rows="4"></textarea>
+              <textarea name="message" id="message" rows="4" />
             </div>
             <ul className="actions">
               <li>
