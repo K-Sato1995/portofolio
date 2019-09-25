@@ -18,22 +18,39 @@ const Header = props => (
         <ul className="icons">
           <li>
             <a
-              href="https://twitter.com/HuntaroSan"
-              className="icon fa-diamond"
+              href="https://github.com/K-Sato1995"
+              target="_blank"
+              className="icon fa-github"
+            >
+              <span className="label">GitHub</span>
+            </a>
+          </li>
+          <li>
+            <strong>
+              <a
+                href="https://dev.to/k_penguin_sato"
+                target="_blank"
+                className="icon"
+              >
+                Dev
+              </a>
+            </strong>
+          </li>
+          <li>
+            <a
+              href="https://qiita.com/k-penguin-sato"
+              target="_blank"
+              className="icon fa-quora"
             ></a>
           </li>
           <li>
-            <a href="https://codebushi.com" className="icon fa-facebook">
-              <span className="label">Facebook</span>
-            </a>
-          </li>
-          <li>
-            <a href="https://codebushi.com" className="icon fa fa-dev"></a>
-          </li>
-          <li>
-            <a href="https://github.com/K-Sato1995" className="icon fa-github">
-              <span className="label">GitHub</span>
-            </a>
+            <strong>
+              <a
+                href="https://www.wantedly.com/users/115232179"
+                target="_blank"
+                className="icon fa-wikipedia-w"
+              ></a>
+            </strong>
           </li>
         </ul>
       </div>
