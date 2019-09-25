@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-dimension-v2",
-  "description": "Gatsby Starter - Dimension V2",
-  "version": "1.0.0",
-  "author": "Hunter Chang",
+  "name": "K-Sato's portofolio",
+  "description": "K-Sato's portofolio",
+  "version": "0.0.1",
+  "author": "K-Sato",
   "dependencies": {
     "gatsby": "^2.15.14",
     "gatsby-plugin-manifest": "^2.2.16",

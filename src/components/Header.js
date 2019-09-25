@@ -19,10 +19,8 @@ const Header = props => (
           <li>
             <a
               href="https://twitter.com/HuntaroSan"
-              className="icon fa-twitter"
-            >
-              <span className="label">Twitter</span>
-            </a>
+              className="icon fa-diamond"
+            ></a>
           </li>
           <li>
             <a href="https://codebushi.com" className="icon fa-facebook">
@@ -30,15 +28,10 @@ const Header = props => (
             </a>
           </li>
           <li>
-            <a href="https://codebushi.com" className="icon fa-instagram">
-              <span className="label">Instagram</span>
-            </a>
+            <a href="https://codebushi.com" className="icon fa fa-dev"></a>
           </li>
           <li>
-            <a
-              href="https://github.com/codebushi/gatsby-starter-dimension"
-              className="icon fa-github"
-            >
+            <a href="https://github.com/K-Sato1995" className="icon fa-github">
               <span className="label">GitHub</span>
             </a>
           </li>
