@@ -10,7 +10,7 @@ const Header = props => (
       <div className="inner">
         <h1>K-Sato</h1>
         <p>
-          Deicated software-engineer specializing in Web application
+          Dedicated software-engineer specializing in Web application
           development.
           <br />
           Ruby/JavaScript/TypeScript/Go/C
@@ -78,7 +78,9 @@ const Header = props => (
           </a>
         </li>
         <li>
-          <a href="https://k-sato1995.github.io/blog/">BLOG</a>
+          <a href="https://k-sato1995.github.io/blog/" target="_blank">
+            BLOG
+          </a>
         </li>
         <li>
           <a

@@ -18,10 +18,10 @@
   z-index: 3;
   display: none;
   p {
-    letter-spacing: 1px;
+    letter-spacing: 1.2px;
   }
   li {
-    letter-spacing: 1px;
+    letter-spacing: 1.2px;
   }
   article {
     @include vendor('transform', 'translateY(0.25rem)');
@@ -104,7 +104,10 @@
     padding-bottom: 0.5rem;
   }
   .job-title {
-    font-size: 0.95rem;
+    font-size: 1rem;
+  }
+  .company-name {
+    font-size: 1.2rem;
   }
   @include breakpoint(small) {
     article {
