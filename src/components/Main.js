@@ -66,9 +66,9 @@ class Main extends React.Component {
           <span className="image main">
             <img src={pic02} alt="" />
           </span>
-          <h2>Work Experience</h2>
+          <h2 class="ex-title">Work Experience</h2>
           <h3>DIAMOND MEDIA Co.,Ltd. (2019/10 ~ present)</h3>
-          <h4>Job Title: Backend engineer</h4>
+          <h4 class="job-title">Job Title: Backend engineer</h4>
           <ul>
             <li>
               Developing several web applications to innovate the real estate
@@ -77,7 +77,7 @@ class Main extends React.Component {
           </ul>
 
           <h3>Ruby Development Inc. (2018/04 ~ 2019/09)</h3>
-          <h4>Job Title: Sowtware engineer</h4>
+          <h4 class="job-title">Job Title: Sowtware engineer</h4>
           <ul>
             <li>
               Developed web applications for our clients as a member of the
@@ -90,7 +90,7 @@ class Main extends React.Component {
             </li>
           </ul>
           <h3>Neo Career Co., LTD. (2017/02 ~ 2018/01)</h3>
-          <h4>Job Title: Intern</h4>
+          <h4 class="job-title">Job Title: Intern</h4>
           <ul>
             <li>
               Developed an application to automate creating cost estimates for
@@ -103,7 +103,7 @@ class Main extends React.Component {
             </li>
           </ul>
 
-          <h2>Tech stack</h2>
+          <h2 class="ex-title">Tech stack</h2>
           <h3>FrontEnd</h3>
           <ul>
             <li>Languages: HTTM5/CSS/JavaScript/TypeScript</li>
@@ -121,7 +121,7 @@ class Main extends React.Component {
             <li>Docker/CircleCI/GitHub/GitLab/AWS</li>
           </ul>
 
-          <h2>Certifications</h2>
+          <h2 class="ex-title">Certifications</h2>
           <ul>
             <li>Ruby Association Certified Ruby Programmer.</li>
             <li>
@@ -130,94 +130,10 @@ class Main extends React.Component {
             </li>
           </ul>
 
-          <h2>Education</h2>
+          <h2 class="ex-title">Education</h2>
           <ul>
             <li>Meiji University (Bachelor’s Degree in Politics)</li>
             <li>TECH::CAMP (Web Development)</li>
-          </ul>
-          {close}
-        </article>
-
-        <article
-          id="about"
-          className={`${this.props.article === 'about' ? 'active' : ''} ${
-            this.props.articleTimeout ? 'timeout' : ''
-          }`}
-          style={{ display: 'none' }}
-        >
-          <h2 className="major">About</h2>
-          <span className="image main">
-            <img src={pic03} alt="" />
-          </span>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent
-            eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam
-            erat volutpat. Praesent urna nisi, fringila lorem et vehicula
-            lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.
-            Aliquam libero et malesuada fames ac ante ipsum primis in faucibus.
-            Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit
-            amet.
-          </p>
-          {close}
-        </article>
-
-        <article
-          id="contact"
-          className={`${this.props.article === 'contact' ? 'active' : ''} ${
-            this.props.articleTimeout ? 'timeout' : ''
-          }`}
-          style={{ display: 'none' }}
-        >
-          <h2 className="major">Contact</h2>
-          <form method="post" action="#">
-            <div className="field half first">
-              <label htmlFor="name">Name</label>
-              <input type="text" name="name" id="name" />
-            </div>
-            <div className="field half">
-              <label htmlFor="email">Email</label>
-              <input type="text" name="email" id="email" />
-            </div>
-            <div className="field">
-              <label htmlFor="message">Message</label>
-              <textarea name="message" id="message" rows="4" />
-            </div>
-            <ul className="actions">
-              <li>
-                <input type="submit" value="Send Message" className="special" />
-              </li>
-              <li>
-                <input type="reset" value="Reset" />
-              </li>
-            </ul>
-          </form>
-          <ul className="icons">
-            <li>
-              <a
-                href="https://twitter.com/HuntaroSan"
-                className="icon fa-twitter"
-              >
-                <span className="label">Twitter</span>
-              </a>
-            </li>
-            <li>
-              <a href="https://codebushi.com" className="icon fa-facebook">
-                <span className="label">Facebook</span>
-              </a>
-            </li>
-            <li>
-              <a href="https://codebushi.com" className="icon fa-instagram">
-                <span className="label">Instagram</span>
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://github.com/codebushi/gatsby-starter-dimension"
-                className="icon fa-github"
-              >
-                <span className="label">GitHub</span>
-              </a>
-            </li>
           </ul>
           {close}
         </article>

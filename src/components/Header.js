@@ -10,9 +10,39 @@ const Header = props => (
       <div className="inner">
         <h1>K-Sato</h1>
         <p>
-          Deicated software-engineer specializing in developing web applications
+          Deicated software-engineer specializing in Web application
+          development.
+          <br />
+          Ruby/JavaScript/TypeScript/Go/C
         </p>
-        <p>Ruby/Go/JavaScript/TypeScript/C</p>
+        <ul className="icons">
+          <li>
+            <a
+              href="https://twitter.com/HuntaroSan"
+              className="icon fa-twitter"
+            >
+              <span className="label">Twitter</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://codebushi.com" className="icon fa-facebook">
+              <span className="label">Facebook</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://codebushi.com" className="icon fa-instagram">
+              <span className="label">Instagram</span>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://github.com/codebushi/gatsby-starter-dimension"
+              className="icon fa-github"
+            >
+              <span className="label">GitHub</span>
+            </a>
+          </li>
+        </ul>
       </div>
     </div>
     <nav>
@@ -34,7 +64,7 @@ const Header = props => (
               props.onOpenArticle('work')
             }}
           >
-            Work
+            Experience
           </a>
         </li>
         <li>
@@ -44,7 +74,7 @@ const Header = props => (
           <a
             href="javascript:;"
             onClick={() => {
-              props.onOpenArticle('contact')
+              window.open('mailto:katsuki_sato0130@icloud.com')
             }}
           >
             Contact
