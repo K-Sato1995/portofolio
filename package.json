@@ -1,7 +1,7 @@
 {
   "name": "portofolio",
   "description": "K-Sato's portofolio",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "K-Sato",
   "dependencies": {
     "gatsby": "^2.15.14",
