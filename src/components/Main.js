@@ -67,18 +67,22 @@ class Main extends React.Component {
           <h3 class="company-name">
             DIAMOND MEDIA Co.,Ltd. (2019/10 ~ present)
           </h3>
-          <h4 class="job-title">Backend engineer</h4>
+          <h4 class="job-title">Web Application Engineer</h4>
           <ul>
             <li>
               Developing several web applications to innovate the real estate
               industry by technology.
             </li>
+            <li>
+              Using RoR on the back-end and React.js written in TypeScript on
+              the front-end. Also using GraphQL for our api.
+            </li>
           </ul>
 
           <h3 class="company-name">
-            Ruby Development Inc. (2018/04 ~ 2019/09)
+            Ruby Development Inc. (2018/04 ~ 2019/10)
           </h3>
-          <h4 class="job-title">Sowtware engineer</h4>
+          <h4 class="job-title">Web Application Engineer</h4>
           <ul>
             <li>
               Developed web applications for our clients as a member of the
@@ -110,11 +114,11 @@ class Main extends React.Component {
           <h3>FrontEnd</h3>
           <ul>
             <li>Languages : HTTM5 / CSS / JavaScript / TypeScript</li>
-            <li>FrameWorks : React / Redux / Apollo-Client</li>
+            <li>FrameWorks : React / Redux / Apollo-Client / Gatsby</li>
           </ul>
           <h3>BackEnd</h3>
           <ul>
-            <li>Languages : Ruby / Go / JavaScript</li>
+            <li>Languages : Ruby / Go / JavaScript / TypeScript</li>
             <li>FrameWorks : Rails / Express.js</li>
             <li>Database : MySQL / PostgreSQL / SQLite / Redis</li>
             <li>API : RESTful / GraphQL</li>
