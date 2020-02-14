@@ -128,6 +128,50 @@ class Main extends React.Component {
             <li>Docker / CircleCI / GitHub / GitLab / AWS</li>
           </ul>
 
+          <h2 class="ex-title">OSS CONTRIBUTIONS</h2>
+          <h3>Softwares</h3>
+          <ul>
+            <li>
+              <a href="https://github.com/franckverrot/clamav-client">
+                clamav-client
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/jbodah/spy_rb">spy_rb</a>
+            </li>
+            <li>
+              <a href="https://github.com/BoostIO/Boostnote">Boostnote</a>
+            </li>
+            <li>
+              <a href="https://github.com/schneems/puma_worker_killer">
+                puma_worker_killer
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/K-Sato1995/spell_generator">
+                spell_generator
+              </a>
+            </li>
+          </ul>
+          <h3>Documentations</h3>
+          <ul>
+            <li>
+              <a href="https://github.com/javascript-tutorial/en.javascript.info/graphs/contributors">
+                The Modern JavaScript Tutorial
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/docker/docker.github.io">
+                Docker Documentation
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/yasslab/railsguides.jp">
+                Rails Guide(JP)
+              </a>
+            </li>
+          </ul>
+
           <h2 class="ex-title">CERTIFICATIONS</h2>
           <ul>
             <li>Ruby Association Certified Ruby Programmer.</li>
